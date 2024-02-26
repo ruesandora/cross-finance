@@ -41,7 +41,7 @@ rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz $HOME/bin
 # init işlemi
 crossfid config chain-id crossfi-evm-testnet-1
 crossfid config keyring-backend test
-crossfid config node tcp://localhost:26057
+crossfid config node tcp://localhost:26657
 git clone https://github.com/crossfichain/testnet.git
 mv $HOME/testnet/ $HOME/.mineplex-chain/
 
